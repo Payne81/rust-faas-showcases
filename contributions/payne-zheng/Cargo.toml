@@ -1,0 +1,16 @@
+[package]
+name = "payne-zheng"
+version = "0.1.0"
+authors = ["Payne <3334248237@qq.com>"]
+edition = "2018"
+
+[lib]
+name = "if_work_overtime"
+path = "src/lib.rs"
+crate-type =["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "=0.2.61"
+rand = "0.8.1"
